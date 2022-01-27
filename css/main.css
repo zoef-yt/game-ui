@@ -5,6 +5,26 @@
 	box-sizing: border-box;
 }
 
+:root {
+	--colour-primary: #58a6f0;
+	--colour-primary-second: #388bfd66;
+	--colour-secondary: #4078c0;
+	--colour-black-one: #0d1117;
+	--colour-black-second: #010409;
+	--colour-black-third: #161b22;
+	--colour-black-fourth: #21262d;
+	--colour-text-white: #c9d1d9;
+	--colour-text-grey: #8b949e;
+	--colour-accent-one: #29b950;
+	--colour-accent-second: #1a5729;
+	--colour-accent-third: #6e5494;
+	--colour-warning: #d29922;
+	--colour-warning-second: #272115;
+	--colour-warning-third: #624711;
+	--colour-error: #f8513d;
+	--colour-error-second: #6b2a2b;
+}
+
 html {
 	scroll-behavior: smooth;
 	font-size: 62.5%;
@@ -18,4 +38,6 @@ button {
 body {
 	font-family: "Roboto", sans-serif;
 	font-size: 1.2rem;
+	background-color: var(--colour-black-one);
+	color: var(--colour-text-white);
 }
