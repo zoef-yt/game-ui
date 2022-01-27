@@ -17,6 +17,7 @@
 	color: var(--colour-text-white);
 	border-radius: 50%;
 }
+
 .badge-status {
 	position: absolute;
 	display: flex;
@@ -35,9 +36,11 @@
 .badge-status.online {
 	background: var(--colour-accent-one);
 }
+
 .badge-status.dnd {
 	background: var(--colour-error);
 }
+
 .badge-status.idle {
 	background: var(--colour-warning);
 }
