@@ -1,2 +1,4 @@
 @import "./css/main.css";
 @import "./css/documentation.css";
+@import "./pages/components/avatar/avatar.css";
+@import "./pages/components/badge/badge.css";
