@@ -35,9 +35,24 @@ button {
 	font-family: "Roboto", sans-serif;
 }
 
+ul[role="list"],
+ol[role="list"] {
+	list-style: none;
+}
+
 body {
 	font-family: "Roboto", sans-serif;
 	font-size: 1.2rem;
 	background-color: var(--colour-black-one);
 	color: var(--colour-text-white);
+}
+
+a:not([class]) {
+	text-decoration-skip-ink: auto;
+}
+
+img,
+picture {
+	max-width: 100%;
+	display: block;
 }
