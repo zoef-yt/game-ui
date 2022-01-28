@@ -1,0 +1,104 @@
+.btn {
+	border-radius: 5px;
+	border: 1px solid transparent;
+	cursor: pointer;
+	font-size: 1.6rem;
+	font-weight: 500;
+	margin: 0.1em;
+	padding: 0.5rem 1rem;
+	transition: all 0.2s ease-out;
+}
+
+.btn-primary {
+	background-color: var(--colour-accent-one);
+	color: var(--colour-black-second);
+}
+
+.btn-primary:hover {
+	background-color: var(--colour-accent-second);
+	border: 1px solid var(--colour-accent-one);
+	color: var(--colour-text-white);
+}
+
+.btn-secondary {
+	background-color: var(--colour-primary);
+	color: var(--colour-black-second);
+}
+
+.btn-secondary:hover {
+	border: 1px solid var(--colour-primary);
+	background-color: var(--colour-primary-second);
+}
+
+.btn-danger {
+	background-color: var(--colour-error);
+	color: var(--colour-black-second);
+}
+
+.btn-danger:hover {
+	border: 1px solid var(--colour-error);
+	background-color: var(--colour-error-second);
+	color: var(--colour-text-white-two);
+}
+
+.btn-link {
+	background-color: transparent;
+	color: var(--colour-secondary);
+}
+
+.btn-link:hover {
+	text-decoration: underline;
+	color: var(--colour-primary);
+}
+
+.btn-outline-primary {
+	background-color: transparent;
+	border: 1px solid var(--colour-accent-one);
+	color: var(--colour-accent-one);
+}
+
+.btn-outline-primary:hover {
+	background-color: var(--colour-accent-one);
+	color: var(--colour-text-white-two);
+}
+
+.btn-outline-secondary {
+	border: 1px solid var(--colour-primary);
+	background-color: transparent;
+	color: var(--colour-secondary);
+}
+
+.btn-outline-secondary:hover {
+	background-color: var(--colour-primary);
+	color: var(--colour-black-second);
+}
+
+.btn-outline-danger {
+	background-color: transparent;
+	border: 1px solid var(--colour-error);
+	color: var(--colour-error);
+}
+
+.btn-outline-danger:hover {
+	background-color: var(--colour-error);
+	color: var(--colour-text-white-two);
+}
+
+.btn-fab {
+	border-radius: 50%;
+	background-color: var(--colour-accent-one);
+	border: 1px solid transparent;
+	cursor: pointer;
+	color: var(--colour-black-one);
+	font-size: 1.6rem;
+	font-weight: 500;
+	margin: 0.1em;
+	padding: 0.5rem 1rem;
+	transition: all 0.2s ease-out;
+}
+
+.btn-fab:hover {
+	background-color: var(--colour-accent-second);
+	border: 1px solid var(--colour-accent-one);
+	color: var(--colour-text-white-two);
+}

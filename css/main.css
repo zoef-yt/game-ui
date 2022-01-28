@@ -14,6 +14,7 @@
 	--colour-black-third: #161b22;
 	--colour-black-fourth: #21262d;
 	--colour-text-white: #c9d1d9;
+	--colour-text-white-two: #e1eaf3;
 	--colour-text-grey: #8b949e;
 	--colour-accent-one: #29b950;
 	--colour-accent-second: #1a5729;
@@ -42,7 +43,8 @@ ol[role="list"] {
 
 body {
 	font-family: "Roboto", sans-serif;
-	font-size: 1.2rem;
+	font-size: 1.6rem;
+	line-height: 250%;
 	background-color: var(--colour-black-one);
 	color: var(--colour-text-white);
 }
