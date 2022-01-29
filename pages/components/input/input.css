@@ -1,0 +1,44 @@
+.textarea {
+	resize: none;
+	background-color: var(--colour-black-third);
+	color: var(--colour-text-white);
+	border-radius: 0.5rem;
+	font-size: 1.6rem;
+	line-height: 190%;
+	padding: 0.5rem;
+	font-family: "Roboto", sans-serif;
+}
+
+.text-field {
+	background-color: var(--colour-black-third);
+	color: var(--colour-text-white);
+	display: block;
+	border: none;
+	margin: 1rem;
+	border-radius: 0.5rem;
+	font-size: 1.6rem;
+	line-height: 190%;
+	padding: 0.5rem;
+	font-family: "Roboto", sans-serif;
+}
+
+.text-field-error {
+	background-color: var(--colour-error-second);
+	color: var(--colour-text-white-two);
+}
+
+.text-field-error:focus {
+	outline: 1px solid var(--colour-error);
+	background-color: var(--colour-error-second);
+	color: var(--colour-text-white-two);
+}
+
+.text-field-success {
+	background-color: var(--colour-accent-second);
+	color: var(--colour-text-white-two);
+}
+
+.text-field-success:focus {
+	outline: 1px solid var(--colour-accent-one);
+	color: var(--colour-text-white-two);
+}
