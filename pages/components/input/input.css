@@ -21,10 +21,12 @@
 	padding: 0.5rem;
 	font-family: "Roboto", sans-serif;
 }
+
 .text-field-error {
 	background-color: var(--colour-error-second);
 	color: var(--colour-text-white-two);
 }
+
 .text-field-error:focus {
 	outline: 1px solid var(--colour-error);
 	background-color: var(--colour-error-second);
@@ -35,6 +37,7 @@
 	background-color: var(--colour-accent-second);
 	color: var(--colour-text-white-two);
 }
+
 .text-field-success:focus {
 	outline: 1px solid var(--colour-accent-one);
 	color: var(--colour-text-white-two);
