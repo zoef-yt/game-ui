@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../../../styles.css" />
+		<title>Image | UI Game</title>
+	</head>
+	<body>
+		<nav>
+			<header class="navbar-heading">UI Game</header>
+		</nav>
+
+		<hr />
+
+		<div class="main-body">
+			<h1>Image</h1>
+
+			<h1>Circular Image</h1>
+			<img
+				class="img img-circular"
+				src="https://images.squarespace-cdn.com/content/v1/5b637c76e17ba3724ec64dcb/1615257709590-WBTMTK0S7WWPBUGMFVE3/scarlet-witch-wandavision.png?format=1000w"
+				alt="wanda image"
+			/>
+
+			<br />
+
+			<br />
+			<h1>Rounded square Image</h1>
+			<img class="img img-rounded-square" src="https://cdn.mos.cms.futurecdn.net/jGzwyejNTQjgjWmap5cHUN.jpg" alt="wanda image" />
+
+			<br /><br />
+
+			<h1>Responsive Image</h1>
+			<div class="img-responsive-container">
+				<picture>
+					<source media="(min-width:1600px)" srcset="assets/wanda1.jpg" />
+					<source media="(min-width:1050px)" srcset="assets/wanda2.jpg" />
+					<source media="(min-width:768px)" srcset="assets/wanda3.jpg" />
+					<img src="assets/wanda3.jpg" alt="wanda image" />
+				</picture>
+			</div>
+			<br /><br /><br /><br />
+		</div>
+	</body>
+</html>

@@ -4,7 +4,6 @@
 	cursor: pointer;
 	font-size: 1.6rem;
 	font-weight: 500;
-	margin: 0.1em;
 	padding: 0.5rem 1rem;
 	transition: all 0.2s ease-out;
 }
@@ -92,7 +91,6 @@
 	color: var(--colour-black-one);
 	font-size: 1.6rem;
 	font-weight: 500;
-	margin: 0.1em;
 	padding: 0.5rem 1rem;
 	transition: all 0.2s ease-out;
 }

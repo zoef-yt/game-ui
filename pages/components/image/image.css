@@ -1,0 +1,23 @@
+.img {
+	width: 12rem;
+	height: 12rem;
+	object-fit: cover;
+}
+
+.img-circular {
+	border-radius: 50%;
+	border: 1px solid var(--colour-text-white);
+}
+
+.img-rounded-square {
+	border-radius: 1.8rem;
+	border: 1px solid var(--colour-text-white);
+}
+
+.img:hover {
+	box-shadow: 0 2px 7px 1px var(--colour-accent-third);
+}
+
+.img-responsive-container {
+	max-width: 50vw;
+}
