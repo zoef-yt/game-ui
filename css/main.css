@@ -24,7 +24,7 @@
 	--colour-warning-third: #624711;
 	--colour-error: #f8513d;
 	--colour-error-second: #6b2a2b;
-	--colour-black-with-opacity: rgba(0, 0, 0, 0.5);
+	--colour-dark-with-opacity: rgba(0, 0, 0, 0.5);
 }
 
 html {
