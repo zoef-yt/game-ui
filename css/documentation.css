@@ -1,7 +1,145 @@
 /* ------------------- documentation.css ------------------------- */
-.navbar-heading {
-	font-size: 1.5em;
-	font-weight: bold;
-	color: #fff;
-	text-transform: uppercase;
+
+.body-header {
+	padding: 0 2rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	grid-area: header;
+}
+.body-header a {
+	margin: 0 1rem;
+}
+
+.body-left-nav {
+	grid-area: left-nav;
+	padding: 0 1rem;
+	overflow-y: auto;
+}
+
+.body-content {
+	grid-area: main-content;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.body-content-heading {
+	font-size: 10rem;
+	max-width: 50rem;
+	line-height: 0.8;
+	width: 100%;
+	color: var(--colour-primary);
+	text-align: center;
+}
+
+.body-content-subheading {
+	font-size: 2rem;
+	margin: 1rem 0;
+	max-width: 50rem;
+	line-height: 0.7;
+	width: 100%;
+	color: var(--colour-text-white);
+	text-align: center;
+}
+
+.body-content-para {
+	font-size: 1.5rem;
+	text-align: center;
+	max-width: 50rem;
+	width: 100%;
+	color: var(--colour-text-grey);
+}
+
+.cta {
+	margin: 2rem 0;
+	display: flex;
+	font-size: 1.5rem;
+	text-align: center;
+	max-width: 50rem;
+	width: 100%;
+	color: var(--colour-primary);
+}
+
+.body-footer-1 {
+	padding: 1rem 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	grid-area: footer1;
+}
+.body-footer-2 {
+	padding: 1rem 2rem;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	grid-area: footer2;
+}
+
+.body-footer-2 a {
+	margin: 1rem;
+}
+
+.main-body {
+	display: grid;
+	grid-template-areas:
+		"header header header header"
+		"left-nav main-content main-content main-content"
+		"footer1 . . footer2";
+	grid-template-columns: 1fr 2fr 2fr 1fr;
+	grid-template-rows: 8rem 1fr 12rem;
+	margin: auto;
+	height: 100vh;
+	width: 100%;
+	max-width: 170rem;
+}
+
+@media only screen and (max-width: 768px) {
+	.main-body {
+		display: grid;
+		grid-template-areas:
+			"header"
+			"main-content"
+			"footer1 "
+			"footer2 ";
+		grid-template-columns: 1fr;
+		grid-template-rows: 12rem 1fr 8rem 8rem;
+	}
+	.body-footer-1 {
+		align-items: center;
+	}
+	.body-footer-2 {
+		justify-content: center;
+	}
+	.body-left-nav {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1279px) and (min-width: 769px) {
+	.main-body {
+		display: grid;
+		grid-template-areas:
+			" header header header"
+			"left-nav main-content main-content "
+			" footer1 footer1 footer2 ";
+		grid-template-columns: 1fr 2fr 2fr;
+		grid-template-rows: 8rem 1fr 7rem;
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+	.main-body {
+		display: grid;
+		grid-template-areas:
+			"header header header header"
+			"left-nav main-content main-content main-content"
+			"footer1 footer1 footer2 footer2";
+		grid-template-columns: 1fr 2fr 2fr 1fr;
+		grid-template-rows: 8rem 1fr 12rem;
+	}
 }

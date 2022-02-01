@@ -4,7 +4,7 @@
 	cursor: pointer;
 	font-size: 1.6rem;
 	font-weight: 500;
-	padding: 0.5rem 1rem;
+	padding: 1rem 1rem;
 	transition: all 0.2s ease-out;
 }
 
@@ -27,6 +27,7 @@
 .btn-secondary:hover {
 	border: 1px solid var(--colour-primary);
 	background-color: var(--colour-primary-second);
+	color: var(--colour-text-white);
 }
 
 .btn-danger {

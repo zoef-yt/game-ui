@@ -1,0 +1,16 @@
+.heading-div {
+	border: 1px solid var(--colour-text-grey);
+	border-radius: 1rem;
+	width: 100%;
+	max-width: 70vw;
+	margin: 2rem 0;
+	padding: 1rem;
+}
+.heading-div h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 2rem 0;
+}
