@@ -88,12 +88,10 @@
 	border-radius: 50%;
 	background-color: var(--colour-accent-one);
 	border: 1px solid transparent;
-	cursor: pointer;
 	color: var(--colour-black-one);
-	font-size: 1.6rem;
-	font-weight: 500;
 	padding: 0.5rem 1rem;
-	transition: all 0.2s ease-out;
+	width: fit-content;
+	aspect-ratio: 1;
 }
 
 .btn-fab:hover {

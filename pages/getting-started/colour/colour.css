@@ -1,0 +1,53 @@
+.colour-holder {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	max-width: 60vw;
+	margin: 1rem 0;
+}
+
+.colour-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 1rem;
+	margin: 1rem;
+	width: 12rem;
+	height: 12rem;
+	border-radius: 1rem;
+	color: var(--colour-black-third);
+	border: 1px solid var(--colour-black-fourth);
+}
+
+.colour-box-primary {
+	background-color: var(--colour-primary);
+}
+
+.colour-box-secondary {
+	background-color: var(--colour-secondary);
+}
+
+.colour-box-accent {
+	background-color: var(--colour-accent-one);
+}
+
+.colour-box-accent-two {
+	background-color: var(--colour-accent-third);
+}
+
+.colour-box-error {
+	background-color: var(--colour-error);
+}
+
+.colour-box-warning {
+	background-color: var(--colour-warning);
+}
+
+.colour-box-white {
+	background-color: var(--colour-text-white-two);
+}
+.colour-box-black {
+	background-color: var(--colour-black-one);
+	color: var(--colour-text-white-two);
+}

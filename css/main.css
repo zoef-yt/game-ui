@@ -54,13 +54,10 @@ a:not([class]) {
 }
 
 a {
-	color: var(--colour-secondary);
 	text-decoration: none;
+	color: inherit;
 }
-a:hover {
-	color: var(--colour-primary);
-	text-decoration: underline;
-}
+
 img,
 picture {
 	max-width: 100%;
@@ -157,5 +154,5 @@ hr {
 	/* border: 0; */
 	margin: 0.5rem 0;
 	width: 90%;
-	height: 1px;
+	height: 2px;
 }

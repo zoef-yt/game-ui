@@ -5,112 +5,84 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="../../../styles.css" />
-		<title>Alert | UI Game</title>
 	</head>
-	<body>
-		<nav>
-			<header class="navbar-heading">UI Game</header>
-		</nav>
-
+	<body class="showcase-body">
+		<h1 class="showcase-header">Alert</h1>
+		<p>
+			Alerts are used to notify the user of an important event. They can be used to inform the user of an event, or to prompt the user to take
+			an action.
+		</p>
 		<hr />
-
-		<div class="main-body">
-			<h1>Alert</h1>
-			<p>
-				Alerts are used to notify the user of an important event. They can be used to inform the user of an event, or to prompt the user to
-				take an action.
-			</p>
-
-			<h1>Error alert</h1>
-			<p>Error alerts are used to notify the user of an error.</p>
-
+		<h1 class="showcase-header">Error alert</h1>
+		<p>Error alerts are used to notify the user of an error.</p>
+		<div class="component-holder">
 			<div class="alert alert-error">
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					xmlns:xlink="http://www.w3.org/1999/xlink"
-					aria-hidden="true"
-					role="img"
-					class="iconify iconify--mdi"
-					width="32"
-					height="32"
-					preserveAspectRatio="xMidYMid meet"
-					viewBox="0 0 24 24"
-				>
-					<path
-						d="M23 12l-2.44-2.78l.34-3.68l-3.61-.82l-1.89-3.18L12 3L8.6 1.54L6.71 4.72l-3.61.81l.34 3.68L1 12l2.44 2.78l-.34 3.69l3.61.82l1.89 3.18L12 21l3.4 1.46l1.89-3.18l3.61-.82l-.34-3.68L23 12m-10 5h-2v-2h2v2m0-4h-2V7h2v6z"
-						fill="currentColor"
-					></path>
-				</svg>
+				<img src="../../../assets/svg/error.svg" alt="error" />
 				<p>This is a error alert</p>
 			</div>
+		</div>
+		<div class="component-code-holder">
+			<iframe
+				src="https://carbon.now.sh/embed?bg=rgba%2833%2C38%2C45%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=16px&dsblur=15px&wc=true&wa=true&pv=33px&ph=16px&ln=false&fl=1&fm=Ubuntu+Mono&fs=14.5px&lh=90%25&si=false&es=4x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253E%250A%2509%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522error%2522%2520%252F%253E%250A%2509%253Cp%253EThis%2520is%2520a%2520error%2520alert%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+				style="width: 316px; height: 192px; border: 0; transform: scale(1); overflow: hidden"
+				sandbox="allow-scripts allow-same-origin"
+			>
+			</iframe>
+		</div>
+		<hr />
 
-			<h1>Success alert</h1>
-			<p>Success alerts are used to notify the user of a successful event.</p>
-
+		<h1 class="showcase-header">Success alert</h1>
+		<p>Success alerts are used to notify the user of a successful event.</p>
+		<div class="component-holder">
 			<div class="alert alert-success">
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					xmlns:xlink="http://www.w3.org/1999/xlink"
-					aria-hidden="true"
-					role="img"
-					class="iconify iconify--mdi"
-					width="32"
-					height="32"
-					preserveAspectRatio="xMidYMid meet"
-					viewBox="0 0 24 24"
-				>
-					<path
-						d="M23 12l-2.4-2.8l.3-3.7l-3.6-.8l-1.9-3.2L12 3L8.6 1.5L6.7 4.7l-3.6.8l.3 3.7L1 12l2.4 2.8l-.3 3.7l3.6.8l1.9 3.2L12 21l3.4 1.5l1.9-3.2l3.6-.8l-.3-3.7L23 12m-4.3 4.9l-2.7.6l-1.4 2.4l-2.6-1.1l-2.6 1.1L8 17.5l-2.7-.6l.2-2.8L3.7 12l1.8-2.1l-.2-2.8L8 6.5l1.4-2.4L12 5.2l2.6-1.1L16 6.5l2.7.6l-.2 2.8l1.8 2.1l-1.8 2.1l.2 2.8m-2.1-9.3L18 9l-8 8l-4-4l1.4-1.4l2.6 2.6l6.6-6.6z"
-						fill="currentColor"
-					></path>
-				</svg>
+				<img src="../../../assets/svg/success.svg" alt="Success" />
 				<p>This is a success alert</p>
 			</div>
+		</div>
+		<div class="component-code-holder">
+			<iframe
+				src="https://carbon.now.sh/embed?bg=rgba%2833%2C38%2C45%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=16px&dsblur=15px&wc=true&wa=true&pv=33px&ph=16px&ln=false&fl=1&fm=Ubuntu+Mono&fs=14.5px&lh=90%25&si=false&es=4x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2509%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522success%2522%2520%252F%253E%250A%2509%253Cp%253EThis%2520is%2520a%2520success%2520alert%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+				style="width: 331px; height: 192px; border: 0; transform: scale(1); overflow: hidden"
+				sandbox="allow-scripts allow-same-origin"
+			>
+			</iframe>
+		</div>
+		<hr />
 
-			<h1>Warning alert</h1>
-			<p>Warning alerts are used to notify the user of a warning.</p>
-
+		<h1 class="showcase-header">Warning alert</h1>
+		<p>Warning alerts are used to notify the user of a warning.</p>
+		<div class="component-holder">
 			<div class="alert alert-warning">
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					xmlns:xlink="http://www.w3.org/1999/xlink"
-					aria-hidden="true"
-					role="img"
-					class="iconify iconify--ic"
-					width="32"
-					height="32"
-					preserveAspectRatio="xMidYMid meet"
-					viewBox="0 0 24 24"
-				>
-					<path d="M1 21h22L12 2L1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z" fill="currentColor"></path>
-				</svg>
+				<img src="../../../assets/svg/warning.svg" alt="warning" />
 				<p>This is a warning alert</p>
 			</div>
+		</div>
+		<div class="component-code-holder">
+			<iframe
+				src="https://carbon.now.sh/embed?bg=rgba%2833%2C38%2C45%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=16px&dsblur=15px&wc=true&wa=true&pv=33px&ph=16px&ln=false&fl=1&fm=Ubuntu+Mono&fs=14.5px&lh=90%25&si=false&es=4x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2509%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522warning%2522%2520%252F%253E%250A%2509%253Cp%253EThis%2520is%2520a%2520warning%2520alert%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+				style="width: 331px; height: 192px; border: 0; transform: scale(1); overflow: hidden"
+				sandbox="allow-scripts allow-same-origin"
+			>
+			</iframe>
+		</div>
+		<hr />
 
-			<h1>Info alert</h1>
-			<p>Info alerts are used to notify the user of an important event.</p>
+		<h1 class="showcase-header">Info alert</h1>
+		<p>Info alerts are used to notify the user of an important event.</p>
 
+		<div class="component-holder">
 			<div class="alert alert-info">
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					xmlns:xlink="http://www.w3.org/1999/xlink"
-					aria-hidden="true"
-					role="img"
-					class="iconify iconify--icomoon-free"
-					width="26"
-					height="26"
-					preserveAspectRatio="xMidYMid meet"
-					viewBox="0 0 16 16"
-				>
-					<path
-						d="M7 4.75c0-.412.338-.75.75-.75h.5c.412 0 .75.338.75.75v.5c0 .412-.338.75-.75.75h-.5A.753.753 0 0 1 7 5.25v-.5z"
-						fill="currentColor"
-					></path>
-					<path d="M10 12H6v-1h1V8H6V7h3v4h1z" fill="currentColor"></path>
-					<path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm0 14.5a6.5 6.5 0 1 1 0-13a6.5 6.5 0 0 1 0 13z" fill="currentColor"></path>
-				</svg>
+				<img src="../../../assets/svg/info.svg" alt="warning" />
 				<p>This is a info alert</p>
 			</div>
+		</div>
+		<div class="component-code-holder">
+			<iframe
+				src="https://carbon.now.sh/embed?bg=rgba%2833%2C38%2C45%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=16px&dsblur=15px&wc=true&wa=true&pv=33px&ph=16px&ln=false&fl=1&fm=Ubuntu+Mono&fs=14.5px&lh=90%25&si=false&es=4x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253E%250A%2509%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522info%2522%2520%252F%253E%250A%2509%253Cp%253EThis%2520is%2520a%2520info%2520alert%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+				style="width: 331px; height: 192px; border: 0; transform: scale(1); overflow: hidden"
+				sandbox="allow-scripts allow-same-origin"
+			>
+			</iframe>
 		</div>
 	</body>
 </html>
