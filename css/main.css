@@ -13,6 +13,7 @@
 	--colour-black-second: #010409;
 	--colour-black-third: #161b22;
 	--colour-black-fourth: #21262d;
+	--colour-black-fifth: #383838;
 	--colour-text-white: #c9d1d9;
 	--colour-text-white-two: #e1eaf3;
 	--colour-text-grey: #8b949e;
@@ -65,9 +66,19 @@ picture {
 }
 /* -------------- utilities ---------------- */
 
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
 .margin-left {
 	margin-left: auto;
 }
+
 .margin-right {
 	margin-right: auto;
 }
