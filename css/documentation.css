@@ -107,6 +107,9 @@
 	max-width: 170rem;
 }
 
+.showcase-iframe {
+	transition: all 0.2s ease-in;
+}
 @media only screen and (max-width: 768px) {
 	.showcase-iframe {
 		padding: 2rem;
