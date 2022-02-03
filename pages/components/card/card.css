@@ -128,7 +128,7 @@
 
 .card:hover .card-badge {
 	opacity: 0.4;
-	top: -30px;
+	top: -3rem;
 }
 
 .card-icon {
