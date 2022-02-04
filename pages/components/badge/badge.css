@@ -1,4 +1,4 @@
-.badge {
+.badge-holder {
 	position: relative;
 	width: max-content;
 }
@@ -8,10 +8,11 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 2px;
-	top: 0px;
-	right: 5px;
-	min-width: 1.5rem;
+	padding: 1px;
+	bottom: 0px;
+	right: 0px;
+	min-height: 2.5rem;
+	min-width: 2.5rem;
 	aspect-ratio: 1;
 	background: var(--colour-error);
 	color: var(--colour-text-white);
@@ -20,19 +21,31 @@
 
 .badge-status {
 	position: absolute;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	bottom: 0px;
-	right: 10px;
-	height: 1.5rem;
-	width: 1.5rem;
+	bottom: 0;
+	right: 0;
+	height: 2.5rem;
+	width: 2.5rem;
 	background: var(--colour-text-grey);
 	color: var(--colour-text-white);
 	border-radius: 50%;
 	border: 2px solid var(--colour-black-one);
 }
 
+.badge-icon {
+	position: absolute;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	bottom: -10px;
+	right: -10px;
+	height: 2.5rem;
+	width: 2.5rem;
+	background: var(--colour-error);
+	color: var(--colour-text-white);
+	border-radius: 50%;
+	border: 2px solid var(--colour-black-one);
+}
 .badge-status.online {
 	background: var(--colour-accent-one);
 }

@@ -1,6 +1,6 @@
 .img {
-	width: 12rem;
-	height: 12rem;
+	aspect-ratio: 1;
+	max-width: 16rem;
 	object-fit: cover;
 }
 
@@ -15,9 +15,15 @@
 }
 
 .img:hover {
-	box-shadow: 0 2px 7px 1px var(--colour-accent-third);
+	opacity: 0.8;
+	transform: scale(1.006);
+	border: 2px solid var(--colour-text-white);
 }
 
 .img-responsive-container {
 	max-width: 50vw;
+}
+.img-responsive {
+	max-width: 100%;
+	display: block;
 }

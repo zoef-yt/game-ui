@@ -5,63 +5,68 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="../../../styles.css" />
+		<link rel="stylesheet" href="../../../css/main.css" />
 		<title>Badge | UI Game</title>
 	</head>
 	<body>
-		<nav>
-			<header class="navbar-heading">UI Game</header>
-		</nav>
-		<hr />
-		<div class="main-body">
+		<div class="showcase-body">
 			<h1>Badge</h1>
 			<p>Badges are used to show the certain status of that particular UI element.</p>
 			<hr />
 			<h1>Badge with a number.</h1>
-			<p>A badge can be created by wrapping a parent element inside a badge class.</p>
+			<p>
+				A badge can be created by wrapping a parent element inside a <code><b>badge-holder</b></code> class.
+			</p>
 
-			<div class="badge">
-				<img class="avatar avatar-lg" src="https://picsum.photos/200/300" alt="Lorem Picsum" />
-				<div class="badge-number">1</div>
+			<div class="space-evenly component-holder">
+				<div class="badge-holder">
+					<img class="avatar avatar-lg" src="../../../assets/images/aloy.jpg" alt="aloy selfie" />
+					<div class="badge-number">1</div>
+				</div>
+
+				<div class="badge-holder">
+					<img src="../../../assets/svg/message.svg" alt="" />
+					<div class="badge-icon">9</div>
+				</div>
 			</div>
-
-			<div class="badge">
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					xmlns:xlink="http://www.w3.org/1999/xlink"
-					aria-hidden="true"
-					role="img"
-					class="iconify iconify--mdi"
-					width="40"
-					height="40"
-					preserveAspectRatio="xMidYMid meet"
-					viewBox="0 0 32 20"
+			<div class="component-code-holder">
+				<iframe
+					src="https://carbon.now.sh/embed?bg=rgba%2833%2C38%2C45%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=16px&dsblur=15px&wc=true&wa=true&pv=33px&ph=16px&ln=false&fl=1&fm=Ubuntu+Mono&fs=14.5px&lh=90%25&si=false&es=4x&wm=false&code=%250A%253Cdiv%2520class%253D%2522badge-holder%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E%250A%2509%253Cdiv%2520class%253D%2522badge-number%2522%253E1%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-holder%2522%253E%250A%2509%253Cimg%2520src%253D%2522....%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2509%253Cdiv%2520class%253D%2522badge-icon%2522%253E9%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+					style="width: 484px; height: 257px; border: 0; transform: scale(1); overflow: hidden"
+					sandbox="allow-scripts allow-same-origin"
 				>
-					<path d="M10 20v-6h4v6h5v-8h3L12 3L2 12h3v8h5z" fill="currentColor"></path>
-				</svg>
-				<div class="badge-number">9</div>
+				</iframe>
 			</div>
+
 			<hr />
 
 			<h1>Badge with status</h1>
-
-			<div class="badge">
-				<img class="avatar avatar-lg" src="https://picsum.photos/200/300" alt="Lorem Picsum" />
-				<div class="badge-status"></div>
+			<p>Different status of the badge can be created using different tags</p>
+			<div class="space-evenly component-holder">
+				<div class="badge-holder">
+					<img class="avatar avatar-lg" src="../../../assets/images/aloy.jpg" alt="aloy selfie" />
+					<div class="badge-status"></div>
+				</div>
+				<div class="badge-holder">
+					<img class="avatar avatar-lg" src="../../../assets/images/aloy.jpg" alt="aloy selfie" />
+					<div class="badge-status online"></div>
+				</div>
+				<div class="badge-holder">
+					<img class="avatar avatar-lg" src="../../../assets/images/aloy.jpg" alt="aloy selfie" />
+					<div class="badge-status dnd"></div>
+				</div>
+				<div class="badge-holder">
+					<img class="avatar avatar-lg" src="../../../assets/images/aloy.jpg" alt="aloy selfie" />
+					<div class="badge-status idle"></div>
+				</div>
 			</div>
-
-			<div class="badge">
-				<img class="avatar avatar-lg" src="https://picsum.photos/200/300" alt="Lorem Picsum" />
-				<div class="badge-status online"></div>
-			</div>
-
-			<div class="badge">
-				<img class="avatar avatar-lg" src="https://picsum.photos/200/300" alt="Lorem Picsum" />
-				<div class="badge-status dnd"></div>
-			</div>
-
-			<div class="badge">
-				<img class="avatar avatar-lg" src="https://picsum.photos/200/300" alt="Lorem Picsum" />
-				<div class="badge-status idle"></div>
+			<div class="component-code-holder">
+				<iframe
+					src="https://carbon.now.sh/embed?bg=rgba%2833%2C38%2C45%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=16px&dsblur=15px&wc=true&wa=true&pv=33px&ph=16px&ln=false&fl=1&fm=Ubuntu+Mono&fs=14.5px&lh=90%25&si=false&es=4x&wm=false&code=%252F%252Fstatus%2520offline%2520is%2520default%250A%253Cdiv%2520class%253D%2522badge-holder%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E%250A%2509%253Cdiv%2520class%253D%2522badge-status%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%252F%252Fstatus%2520online%250A%253Cdiv%2520class%253D%2522badge-holder%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2522%2520src%253D%2522...%2522%2520alt%253D%2522.%2522%2520%252F%253E%250A%2509%253Cdiv%2520class%253D%2522badge-status%2520online%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%252F%252Fstatus%2520Do%2520Not%2520Disturb%250A%253Cdiv%2520class%253D%2522badge-holder%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E%250A%2509%253Cdiv%2520class%253D%2522badge-status%2520dnd%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%252F%252Fstatus%2520Idle%250A%253Cdiv%2520class%253D%2522badge-holder%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E%250A%2509%253Cdiv%2520class%253D%2522badge-status%2520idle%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+					style="width: 483px; height: 421px; border: 0; transform: scale(1); overflow: hidden"
+					sandbox="allow-scripts allow-same-origin"
+				>
+				</iframe>
 			</div>
 		</div>
 	</body>
