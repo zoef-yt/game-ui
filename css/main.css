@@ -84,20 +84,20 @@ picture {
 }
 
 .space-between {
-	justify-content: space-between;
+	justify-content: space-between !important;
 }
 .space-around {
-	justify-content: space-around;
+	justify-content: space-around !important;
 }
 .space-evenly {
-	justify-content: space-evenly;
+	justify-content: space-evenly !important;
 }
 .justify-content-center {
-	justify-content: center;
+	justify-content: center !important;
 }
 
 .align-items-center {
-	align-items: center;
+	align-items: center !important;
 }
 
 .align-items-not-center {
