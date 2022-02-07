@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Modal</title>
+		<link rel="stylesheet" href="../../../styles.css" />
+	</head>
+	<body class="showcase-body">
+		<h1 class="showcase-header">Modal</h1>
+		<hr />
+		<h1 class="showcase-header">Simple Modal</h1>
+		<div class="component-holder flex-column">
+			<button class="btn btn-primary" onclick="openModal('simple-modal')"> Open simple modal </button>
+			<div id="simple-modal" class="modal-display-none">
+				<div class="modal-card">
+					<div class="modal-card-header">
+						<h4>Modal Header</h4>
+					</div>
+					<hr />
+					<div class="modal-card-body">
+						<p>This is modal demo pop up body. And this a really long line i guess. </p>
+					</div>
+					<div class="modal-card-footer">
+						<button class="btn btn-secondary" onclick="closeModal('simple-modal')">Close</button>
+					</div>
+				</div>
+			</div>
+			<div class="modal-card">
+				<div class="modal-card-header">
+					<h4>Modal Header</h4>
+				</div>
+				<hr />
+				<div class="modal-card-body">
+					<p>This is modal demo pop up body. And this a really long line i guess. </p>
+				</div>
+				<div class="modal-card-footer">
+					<button class="btn btn-secondary">Close</button>
+				</div>
+			</div>
+		</div>
+		<hr />
+
+		<h1 class="showcase-header">Modal with input</h1>
+		<div class="component-holder flex-column">
+			<button class="btn btn-primary" onclick="openModal('modal-with-form')"> Open modal with form </button>
+			<div id="modal-with-form" class="modal-display-none">
+				<div class="modal-card">
+					<div class="modal-card-header">
+						<h4>Modal with input </h4>
+					</div>
+					<hr />
+					<div class="modal-card-body">
+						<input type="email" class="text-field" placeholder="Enter your email" />
+						<input type="password" class="text-field" id="" placeholder="password" />
+					</div>
+
+					<div class="modal-card-footer">
+						<button class="btn btn-primary" onclick="closeModal('modal-with-form')">Submit</button>
+						<button class="btn btn-secondary" onclick="closeModal('modal-with-form')">Close</button>
+					</div>
+				</div>
+			</div>
+			<div class="modal-card">
+				<div class="modal-card-header">
+					<h4>Modal with input </h4>
+				</div>
+				<hr />
+				<div class="modal-card-body">
+					<input type="email" class="text-field" placeholder="Enter your email" />
+					<input type="password" class="text-field" id="" placeholder="password" />
+				</div>
+
+				<div class="modal-card-footer">
+					<button class="btn btn-primary">Submit</button>
+					<button class="btn btn-secondary">Close</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="../../../allcomponent.js"></script>
+	</body>
+</html>
