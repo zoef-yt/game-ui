@@ -92,8 +92,20 @@ picture {
 .space-evenly {
 	justify-content: space-evenly;
 }
-.center {
+.justify-content-center {
 	justify-content: center;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.align-items-not-center {
+	align-items: normal !important;
+}
+
+.justify-content-not-center {
+	justify-content: normal !important;
 }
 
 h1 {
