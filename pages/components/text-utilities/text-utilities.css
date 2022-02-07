@@ -1,0 +1,19 @@
+.text-grey {
+	color: var(--colour-text-grey);
+}
+
+.text-small {
+	font-size: 1.2rem;
+}
+
+.text-align-left {
+	text-align: left;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+.text-align-right {
+	text-align: right;
+}
