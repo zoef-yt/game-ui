@@ -10,6 +10,7 @@
 }
 
 .text-field {
+	outline: 1px solid var(--colour-primary-second);
 	background-color: var(--colour-black-third);
 	color: var(--colour-text-white);
 	display: block;
@@ -21,24 +22,27 @@
 	padding: 0.5rem;
 	font-family: "Roboto", sans-serif;
 }
-
-.text-field-error {
-	background-color: var(--colour-error-second);
-	color: var(--colour-text-white-two);
+.text-field:focus {
+	outline: 1px solid var(--colour-primary);
 }
 
-.text-field-error:focus {
+.text-field-error {
 	outline: 1px solid var(--colour-error);
 	background-color: var(--colour-error-second);
 	color: var(--colour-text-white-two);
 }
 
+.text-field-error:focus {
+	background-color: var(--colour-error-second);
+	color: var(--colour-text-white-two);
+}
+
 .text-field-success {
+	outline: 1px solid var(--colour-accent-one);
 	background-color: var(--colour-accent-second);
 	color: var(--colour-text-white-two);
 }
 
 .text-field-success:focus {
-	outline: 1px solid var(--colour-accent-one);
 	color: var(--colour-text-white-two);
 }
