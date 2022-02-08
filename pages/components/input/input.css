@@ -1,5 +1,4 @@
 .textarea {
-	resize: none;
 	background-color: var(--colour-black-third);
 	color: var(--colour-text-white);
 	border-radius: 0.5rem;

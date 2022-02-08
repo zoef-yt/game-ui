@@ -7,10 +7,12 @@
 	align-items: center;
 	grid-area: header;
 }
+
 .heading:hover {
 	cursor: pointer;
 	color: var(--colour-primary);
 }
+
 .header-cta {
 	color: var(--colour-secondary);
 }
@@ -111,6 +113,7 @@
 	padding: 2rem;
 	transition: all 0.2s ease-in;
 }
+
 @media only screen and (max-width: 768px) {
 	.main-body {
 		display: grid;
@@ -155,4 +158,65 @@
 		grid-template-columns: 1fr 2fr 2fr 1fr;
 		grid-template-rows: 8rem 1fr 4rem;
 	}
+}
+
+/* prism.js styling starts here */
+
+.component-code-holder .code-toolbar {
+	max-width: 80%;
+}
+
+.component-code-holder .code-toolbar pre {
+	background-color: var(--colour-black-third);
+	border-radius: 5px;
+	padding: 2.5rem;
+	box-shadow: 0 2px 1rem var(--colour-dark-with-opacity);
+	font-weight: 600;
+	transition: all 0.2s ease-in;
+}
+
+.component-code-holder .code-toolbar pre:hover {
+	box-shadow: 0 1px 2rem 1rem var(--colour-dark-with-opacity);
+}
+
+.component-code-holder .code-toolbar .language-html {
+	color: var(--colour-accent-one);
+}
+
+.component-code-holder .code-toolbar .language-css .token.function {
+	color: var(--colour-accent-third);
+}
+
+.component-code-holder .code-toolbar .language-markup {
+	color: var(--colour-text-grey);
+}
+
+.component-code-holder .code-toolbar .token.tag {
+	color: var(--colour-accent-third);
+}
+
+.component-code-holder .code-toolbar .token.attr-name {
+	color: var(--colour-warning-fourth);
+}
+
+.component-code-holder .code-toolbar .token.attr-value {
+	color: var(--colour-warning);
+}
+
+.component-code-holder .toolbar .toolbar-item .copy-to-clipboard-button {
+	color: var(--colour-black-second);
+	background: var(--colour-primary);
+	padding: 5px 10px;
+	margin-right: 10px;
+}
+
+.component-code-holder .toolbar .toolbar-item .copy-to-clipboard-button:hover {
+	cursor: pointer;
+	background: var(--colour-primary-second);
+	color: var(--colour-text-white-two);
+	border: 1px solid var(--colour-primary);
+}
+
+.line-numbers .token.punctuation {
+	color: var(--colour-error);
 }

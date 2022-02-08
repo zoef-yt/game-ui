@@ -6,6 +6,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="../../../styles.css" />
 		<link rel="stylesheet" href="../../../css/main.css" />
+
+		<link rel="stylesheet" href="../../../prism/prism.css" />
 		<title>Badge | UI Game</title>
 	</head>
 	<body>
@@ -30,12 +32,17 @@
 				</div>
 			</div>
 			<div class="component-code-holder">
-				<iframe
-					src="https://carbon.now.sh/embed?bg=rgba%2833%2C38%2C45%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=16px&dsblur=15px&wc=true&wa=true&pv=33px&ph=16px&ln=false&fl=1&fm=Ubuntu+Mono&fs=14.5px&lh=90%25&si=false&es=4x&wm=false&code=%250A%253Cdiv%2520class%253D%2522badge-holder%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E%250A%2509%253Cdiv%2520class%253D%2522badge-number%2522%253E1%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-holder%2522%253E%250A%2509%253Cimg%2520src%253D%2522....%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2509%253Cdiv%2520class%253D%2522badge-icon%2522%253E9%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-					style="width: 484px; height: 257px; border: 0; transform: scale(1); overflow: hidden"
-					sandbox="allow-scripts allow-same-origin"
-				>
-				</iframe>
+				<script type="text/plain" class="line-numbers language-html">
+					<div class="badge-holder">
+						<img class="avatar avatar-lg" src="..." alt="aloy selfie" />
+						<div class="badge-number">1</div>
+					</div>
+
+					<div class="badge-holder">
+						<img src="..." alt="" />
+						<div class="badge-icon">9</div>
+					</div>
+				</script>
 			</div>
 
 			<hr />
@@ -61,13 +68,29 @@
 				</div>
 			</div>
 			<div class="component-code-holder">
-				<iframe
-					src="https://carbon.now.sh/embed?bg=rgba%2833%2C38%2C45%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=16px&dsblur=15px&wc=true&wa=true&pv=33px&ph=16px&ln=false&fl=1&fm=Ubuntu+Mono&fs=14.5px&lh=90%25&si=false&es=4x&wm=false&code=%252F%252Fstatus%2520offline%2520is%2520default%250A%253Cdiv%2520class%253D%2522badge-holder%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E%250A%2509%253Cdiv%2520class%253D%2522badge-status%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%252F%252Fstatus%2520online%250A%253Cdiv%2520class%253D%2522badge-holder%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2522%2520src%253D%2522...%2522%2520alt%253D%2522.%2522%2520%252F%253E%250A%2509%253Cdiv%2520class%253D%2522badge-status%2520online%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%252F%252Fstatus%2520Do%2520Not%2520Disturb%250A%253Cdiv%2520class%253D%2522badge-holder%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E%250A%2509%253Cdiv%2520class%253D%2522badge-status%2520dnd%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%252F%252Fstatus%2520Idle%250A%253Cdiv%2520class%253D%2522badge-holder%2522%253E%250A%2509%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E%250A%2509%253Cdiv%2520class%253D%2522badge-status%2520idle%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-					style="width: 483px; height: 421px; border: 0; transform: scale(1); overflow: hidden"
-					sandbox="allow-scripts allow-same-origin"
-				>
-				</iframe>
+				<script type="text/plain" class="line-numbers language-html">
+					<div class="badge-holder">
+						<img class="avatar avatar-lg" src="..." />
+						<div class="badge-status"></div>
+					</div>
+
+					<div class="badge-holder">
+						<img class="avatar avatar-lg" src="..." />
+						<div class="badge-status online"></div>
+					</div>
+
+					<div class="badge-holder">
+						<img class="avatar avatar-lg" src="..." />
+						<div class="badge-status dnd"></div>
+					</div>
+
+					<div class="badge-holder">
+						<img class="avatar avatar-lg" src="..." />
+						<div class="badge-status idle"></div>
+					</div>
+				</script>
 			</div>
 		</div>
+		<script src="../../../prism/prism.js"></script>
 	</body>
 </html>
