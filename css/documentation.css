@@ -7,10 +7,12 @@
 	align-items: center;
 	grid-area: header;
 }
+
 .heading:hover {
 	cursor: pointer;
 	color: var(--colour-primary);
 }
+
 .header-cta {
 	color: var(--colour-secondary);
 }
@@ -111,6 +113,7 @@
 	padding: 2rem;
 	transition: all 0.2s ease-in;
 }
+
 @media only screen and (max-width: 768px) {
 	.main-body {
 		display: grid;
@@ -162,6 +165,7 @@
 .component-code-holder .code-toolbar {
 	max-width: 80%;
 }
+
 .component-code-holder .code-toolbar pre {
 	background-color: var(--colour-black-third);
 	border-radius: 5px;
@@ -174,6 +178,7 @@
 .component-code-holder .code-toolbar pre:hover {
 	box-shadow: 0 1px 2rem 1rem var(--colour-dark-with-opacity);
 }
+
 .component-code-holder .code-toolbar .language-html {
 	color: var(--colour-accent-one);
 }
