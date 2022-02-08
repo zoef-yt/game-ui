@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Modal</title>
 		<link rel="stylesheet" href="../../../styles.css" />
+		<link rel="stylesheet" href="../../../prism/prism.css" />
 	</head>
 	<body class="showcase-body">
 		<h1 class="showcase-header">Modal</h1>
@@ -39,6 +40,24 @@
 					<button class="btn btn-secondary">Close</button>
 				</div>
 			</div>
+		</div>
+		<div class="component-code-holder">
+			<script type="text/plain" class="line-numbers language-html">
+				<div id="simple-modal" class="modal-display-none">
+					<div class="modal-card">
+						<div class="modal-card-header">
+							<h4>Modal Header</h4>
+						</div>
+						<hr />
+						<div class="modal-card-body">
+							<p>This is modal demo pop up body. And this a really long line i guess. </p>
+						</div>
+						<div class="modal-card-footer">
+							<button class="btn btn-secondary" onclick="closeModal('simple-modal')">Close</button>
+						</div>
+					</div>
+				</div>
+			</script>
 		</div>
 		<hr />
 
@@ -78,7 +97,28 @@
 				</div>
 			</div>
 		</div>
+		<div class="component-code-holder">
+			<script type="text/plain" class="line-numbers language-html">
+				<div id="modal-with-form" class="modal-display-none">
+					<div class="modal-card">
+						<div class="modal-card-header">
+							<h4>Modal with input </h4>
+						</div>
+						<hr />
+						<div class="modal-card-body">
+							<input type="email" class="text-field" placeholder="Enter your email" />
+							<input type="password" class="text-field" id="" placeholder="password" />
+						</div>
+						<div class="modal-card-footer">
+							<button class="btn btn-primary" onclick="closeModal('modal-with-form')">Submit</button>
+							<button class="btn btn-secondary" onclick="closeModal('modal-with-form')">Close</button>
+						</div>
+					</div>
+				</div>
+			</script>
+		</div>
 
 		<script src="../../../allcomponent.js"></script>
+		<script src="../../../prism/prism.js"></script>
 	</body>
 </html>

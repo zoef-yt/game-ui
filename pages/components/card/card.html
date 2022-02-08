@@ -5,6 +5,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="../../../styles.css" />
+		<link rel="stylesheet" href="../../../prism/prism.css" />
+
 		<title>Card | UI Game</title>
 	</head>
 	<body class="showcase-body">
@@ -39,12 +41,22 @@
 			</div>
 		</div>
 		<div class="component-code-holder">
-			<iframe
-				src="https://carbon.now.sh/embed?bg=rgba%2833%2C38%2C45%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=16px&dsblur=15px&wc=true&wa=true&pv=31px&ph=24px&ln=false&fl=1&fm=Ubuntu+Mono&fs=14.5px&lh=90%25&si=false&es=4x&wm=false&code=%250A%253Cdiv%2520class%253D%2522card%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2509%2509%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522..%2522%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522card-footer%2520space-around%2522%253E%250A%2509%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EBUY%2520NOW%253C%252Fbutton%253E%250A%2520%2520%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522card-badge%2522%253E%250A%2509%2509%253Cp%253ENew%2520Arrival%253C%252Fp%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-				style="width: 520px; height: 300px; border: 0; transform: scale(1); overflow: hidden"
-				sandbox="allow-scripts allow-same-origin"
-			>
-			</iframe>
+			<script type="text/plain" class="line-numbers language-html">
+				//Default card size is medium using 'card-md' class
+				<div class="card card-md">
+					<div class="card-body">
+						<img class="card-img" src="..." alt=".."/>
+					</div>
+					<div class="card-footer space-around">
+						<button class="btn btn-primary">BUY NOW</button>
+				  	</div>
+					<div class="card-badge">
+						<p>New Arrival</p>
+					</div>
+				</div>
+				//five different size of cards are available
+				'card-sm', 'card-md', 'card-lg', 'card-xl', 'card-xxl'.
+			</script>
 		</div>
 		<hr />
 
@@ -65,12 +77,21 @@
 			</div>
 		</div>
 		<div class="component-code-holder">
-			<iframe
-				src="https://carbon.now.sh/embed?bg=rgba%2833%2C38%2C45%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=16px&dsblur=15px&wc=true&wa=true&pv=31px&ph=24px&ln=false&fl=1&fm=Ubuntu+Mono&fs=14.5px&lh=90%25&si=false&es=4x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-sm%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2509%2509%253Cp%253ELaunches%2520today%253C%252Fp%253E%250A%2509%2509%253Cimg%2520class%253D%2522card-icon%2522%2520src%253D%2522..%2522%2520alt%253D%2522%2522%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2509%2509%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522...%2522%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522card-footer%2520space-around%2522%253E%250A%2509%2509%253Cimg%2520class%253D%2522card-icon%2522%2520src%253D%2522..%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2509%2509%253Cimg%2520class%253D%2522card-icon%2522%2520src%253D%2522..%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-				style="width: 468px; height: 326px; border: 0; transform: scale(1); overflow: hidden"
-				sandbox="allow-scripts allow-same-origin"
-			>
-			</iframe>
+			<script type="text/plain" class="line-numbers language-html">
+				<div class="card card-sm">
+					<div class="card-header">
+						<p>Launches today</p>
+						<img class="card-icon" src="..." alt="" srcset="" />
+					</div>
+					<div class="card-body">
+						<img class="card-img" src="..." alt="" />
+					</div>
+					<div class="card-footer space-around">
+						<img class="card-icon" src="..." alt="" />
+						<img class="card-icon" src="..." alt="" />
+					</div>
+				</div>
+			</script>
 		</div>
 		<hr />
 
@@ -113,12 +134,40 @@
 			</div>
 		</div>
 		<div class="component-code-holder">
-			<iframe
-				src="https://carbon.now.sh/embed?bg=rgba%2833%2C38%2C45%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=16px&dsblur=15px&wc=true&wa=true&pv=31px&ph=24px&ln=false&fl=1&fm=Ubuntu+Mono&fs=14.5px&lh=90%25&si=false&es=4x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-md%2520card-overlay-holder%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2509%2509%253Cp%253ELast%2520of%2520us%25202%253C%252Fp%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2509%2509%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522..%2522%2520alt%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522card-footer%2520space-around%2522%253E%250A%2509%2509%253Cimg%2520class%253D%2522card-icon%2522%2520src%253D%2522..%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2509%2509%253Cimg%2520class%253D%2522card-icon%2522%2520src%253D%2522..%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522card-overlay%2522%253E%250A%2509%2509%253Cp%253E...%253C%252Fp%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%252F%252Foverlay%2520on%2520the%2520image%250A%253Cdiv%2520class%253D%2522card%2520card-sm%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2509%2509%253Cp%253ELast%2520of%2520us%25202%253C%252Fp%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522card-body%2520card-overlay-holder%2522%253E%250A%2509%2509%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522..%2522%2520alt%2520%252F%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522card-overlay%2522%253E%250A%2509%2509%2509%2509%253Cp%253EPrice%253A%252450%253C%252Fp%253E%250A%2509%2509%2509%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EBUY%2520NOW%253C%252Fbutton%253E%250A%2509%2509%2509%253Cdiv%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522card-footer%2520space-around%2522%253E%250A%2509%2509%253Cimg%2520class%253D%2522card-icon%2522%2520src%253D%2522..%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2509%2509%253Cimg%2520class%253D%2522card-icon%2522%2520src%253D%2522..%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-				style="width: 590px; height: 630px; border: 0; transform: scale(1); overflow: hidden"
-				sandbox="allow-scripts allow-same-origin"
-			>
-			</iframe>
+			<script type="text/plain" class="line-numbers language-html">
+				<div class="card card-md card-overlay-holder">
+					<div class="card-header">
+						<p>Last of us 2</p>
+					</div>
+					<div class="card-body">
+						<img class="card-img" src="..." alt="" />
+					</div>
+					<div class="card-footer space-around">
+						<img class="card-icon" src="..." alt="" />
+						<img class="card-icon" src="..." alt="" />
+					</div>
+					<div class="card-overlay">
+						<p>...</p>
+					</div>
+				</div>
+
+				<div class="card card-sm">
+					<div class="card-header">
+						<p>Last of us 2</p>
+					</div>
+					<div class="card-body card-overlay-holder">
+						<img class="card-img" src="..." alt="" />
+						<div class="card-overlay">
+							<p>Price:$50</p>
+							<button class="btn btn-primary">BUY NOW</button>
+						</div>
+					</div>
+					<div class="card-footer space-around">
+						<img class="card-icon" src="..." alt="" />
+						<img class="card-icon" src="..." alt="" />
+					</div>
+				</div>
+			</script>
 		</div>
 		<hr />
 
@@ -138,12 +187,17 @@
 			</div>
 		</div>
 		<div class="component-code-holder">
-			<iframe
-				src="https://carbon.now.sh/embed?bg=rgba%2833%2C38%2C45%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=16px&dsblur=15px&wc=true&wa=true&pv=31px&ph=24px&ln=false&fl=1&fm=Ubuntu+Mono&fs=14.5px&lh=90%25&si=false&es=4x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2509%2509%253Cp%2520class%253D%2522p-h3%2522%253E...%253C%252Fp%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Chr%2520%252F%253E%250A%2509%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2509%2509%253Cp%253E...%253C%252Fp%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-				style="width: 361px; height: 256px; border: 0; transform: scale(1); overflow: hidden"
-				sandbox="allow-scripts allow-same-origin"
-			>
-			</iframe>
+			<script type="text/plain" class="line-numbers language-html">
+				<div class="card">
+					<div class="card-header">
+						<p class="p-h3">Horizon Forbidden West</p>
+					</div>
+					<hr />
+					<div class="card-body">
+						<p>...</p>
+					</div>
+				</div>
+			</script>
 		</div>
 		<hr />
 
@@ -164,12 +218,22 @@
 			</div>
 		</div>
 		<div class="component-code-holder">
-			<iframe
-				src="https://carbon.now.sh/embed?bg=rgba%2833%2C38%2C45%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=16px&dsblur=15px&wc=true&wa=true&pv=31px&ph=24px&ln=false&fl=1&fm=Ubuntu+Mono&fs=14.5px&lh=90%25&si=false&es=4x&wm=false&code=%253Cdiv%2520class%253D%2522card-body%2520card-horizontal%2522%253E%250A%2509%253Cimg%2520class%253D%2522card-img-sm%2520img-rounded-square%2522%2520src%253D%2522..%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2509%253Cdiv%2520class%253D%2522flex-column%2522%253E%250A%2509%2509%253Cp%253EHorizon%2520Forbidden%2520West%253C%252Fp%253E%250A%2509%2509%253Cp%253EPrice%253A%2520%252454%253C%252Fp%253E%250A%2509%2509%253Cdiv%253E%250A%2509%2509%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2509%2509%2509%253Cbutton%2520class%253D%2522btn%2520btn-outline-secondary%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-				style="width: 613px; height: 283px; border: 0; transform: scale(1); overflow: hidden"
-				sandbox="allow-scripts allow-same-origin"
-			>
-			</iframe>
+			<script type="text/plain" class="line-numbers language-html">
+				<div class="card card-lg">
+					<div class="card-body card-horizontal">
+						<img class="img card-img-sm img-rounded-square" src="..." alt="ellie" />
+						<div class="flex-column">
+							<p>Horizon Forbidden West</p>
+							<p>Price: $54</p>
+							<div>
+								<button class="btn btn-primary">Buy Now</button>
+								<button class="btn btn-outline-secondary">Add to cart</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</script>
 		</div>
+		<script src="../../../prism/prism.js"></script>
 	</body>
 </html>
