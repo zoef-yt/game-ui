@@ -26,14 +26,14 @@ To start using the components in your project, Copy-paste the stylesheet `<link>
 
 -   [Alert](#Alert)
 -   [Avatar](#Avatar)
--   [Badge](#)
--   [Button](#)
--   [Card](#)
--   [Image](#)
--   [Input](#)
--   [List](#)
--   [Modal](#)
--   [Text Utilities](#)
+-   [Badge](#badge)
+-   [Button](#button)
+-   [Card](#card)
+-   [Image](#image)
+-   [Input](#input)
+-   [List](#list)
+-   [Modal](#modal)
+-   [Text Utilities](#text-utilities)
 
 ---
 
