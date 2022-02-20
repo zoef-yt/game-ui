@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/styles.css" />
+		<link rel="stylesheet" href="/prism/prism.css" />
+		<style>
+			/* This is for demo only so that i can be show in the component */
+			.toast-relative {
+				position: relative;
+			}
+		</style>
+	</head>
+	<body class="showcase-body">
+		<h1 class="showcase-header">Toast</h1>
+		<p>
+			Toasts are used to notify the user of an important event. They can be used to inform the user of an event, or to prompt the user to take
+			an action.
+		</p>
+		<hr />
+		<h1 class="showcase-header">Error toast</h1>
+		<p>Error toasts are used to notify the user of an error.</p>
+		<div class="component-holder">
+			<div class="toast toast-relative">
+				<p>This is a simple toast</p>
+			</div>
+			<div class="toast toast-error toast-relative">
+				<p>This is a error toast</p>
+			</div>
+			<div class="toast toast-warning toast-relative">
+				<p>This is a warning toast</p>
+			</div>
+			<div class="toast toast-success toast-relative">
+				<p>This is a success toast</p>
+			</div>
+
+			<div class="toast toast-error toast-top-right">
+				<p>This is a error toast</p>
+			</div>
+			<div class="toast toast-warning toast-bottom-left">
+				<p>This is a warning toast</p>
+			</div>
+			<div class="toast toast-success toast-bottom-right">
+				<p>This is a success toast</p>
+			</div>
+		</div>
+		<div class="component-code-holder">
+			<script type="text/plain" class="line-numbers language-html">
+				<!-- Top left is not mentioned because for visual purpose  -->
+				<div class="toast toast-top-left">
+					<p>This is a simple toast</p>
+				</div>
+				<div class="toast toast-error toast-top-right">
+					<p>This is a error toast</p>
+				</div>
+				<div class="toast toast-warning toast-bottom-left">
+					<p>This is a warning toast</p>
+				</div>
+				<div class="toast toast-success toast-bottom-right">
+					<p>This is a success toast</p>
+				</div>
+			</script>
+		</div>
+		<script src="/prism/prism.js"></script>
+	</body>
+</html>
