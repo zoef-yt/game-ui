@@ -1,0 +1,40 @@
+.navbar {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar-brand {
+	max-width: 30vw;
+	width: 100%;
+
+	font-size: calc(2.2rem + 0.9vw);
+	font-weight: 500;
+}
+
+.navbar-cta {
+	padding: 2rem;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 2rem;
+
+	max-width: 30vw;
+	width: 100%;
+}
+
+.navbar-cta svg {
+	display: flex;
+	justify-content: center;
+}
+
+.navbar-cta img {
+	flex-shrink: 0;
+}
+
+.navbar-cta > *:hover {
+	transform: translateY(-2px);
+	cursor: pointer;
+	color: var(--colour-primary);
+}
