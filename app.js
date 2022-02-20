@@ -53,6 +53,6 @@ switch (window.location.hash) {
 		break;
 
 	default:
-		changeIframe('../../pages/components/alert/alert.html');
+		changeIframe('/pages/getting-started/introduction/introduction.html');
 		break;
 }
