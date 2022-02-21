@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;900&display=swap');
 * {
 	margin: 0;
 	padding: 0;
@@ -6,6 +6,31 @@
 }
 
 :root {
+	--colour-primary: #58a6f0;
+	--colour-primary-second: #388bfd66;
+	--colour-secondary: #4078c0;
+	--colour-black-one: #dfe7f2;
+	--colour-black-second: #e1eaf3;
+	--colour-black-third: #e1eaf3;
+	--colour-black-fourth: #8b949e;
+	--colour-black-fifth: #ffffff;
+	--colour-text-white: #161b22;
+	--colour-text-white-two: #161b22;
+	--colour-text-grey: #8b949e;
+	--colour-accent-one: #29b950;
+	--colour-accent-second: #1a5729;
+	--colour-accent-third: #6e5494;
+	--colour-warning: #d29922;
+	--colour-warning-second: #272115;
+	--colour-warning-third: #624711;
+	--colour-warning-fourth: #1a5729;
+	--colour-error: #f8513d;
+	--colour-error-second: #6b2a2b;
+	--colour-dark-with-opacity: rgba(0, 0, 0, 0.5);
+	--both-theme-white: #ffffff;
+}
+
+[data-theme='dark'] {
 	--colour-primary: #58a6f0;
 	--colour-primary-second: #388bfd66;
 	--colour-secondary: #4078c0;
@@ -27,8 +52,8 @@
 	--colour-error: #f8513d;
 	--colour-error-second: #6b2a2b;
 	--colour-dark-with-opacity: rgba(0, 0, 0, 0.5);
+	--both-theme-white: #ffffff;
 }
-
 html {
 	scroll-behavior: smooth;
 	font-size: 62.5%;
@@ -36,7 +61,7 @@ html {
 input,
 textarea,
 button {
-	font-family: "Inter", sans-serif;
+	font-family: 'Inter', sans-serif;
 }
 
 li {
@@ -44,7 +69,7 @@ li {
 }
 
 body {
-	font-family: "Inter", sans-serif;
+	font-family: 'Inter', sans-serif;
 	font-size: 1.6rem;
 	line-height: 190%;
 	background-color: var(--colour-black-one);

@@ -5,7 +5,7 @@
 	font-size: 1.6rem;
 	line-height: 190%;
 	padding: 0.5rem;
-	font-family: "Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .text-field {
@@ -19,7 +19,7 @@
 	font-size: 1.6rem;
 	line-height: 190%;
 	padding: 0.5rem;
-	font-family: "Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 .text-field:focus {
 	outline: 1px solid var(--colour-primary);
@@ -28,20 +28,20 @@
 .text-field-error {
 	outline: 1px solid var(--colour-error);
 	background-color: var(--colour-error-second);
-	color: var(--colour-text-white-two);
+	color: var(--both-theme-white);
 }
 
 .text-field-error:focus {
 	background-color: var(--colour-error-second);
-	color: var(--colour-text-white-two);
+	color: var(--both-theme-white);
 }
 
 .text-field-success {
 	outline: 1px solid var(--colour-accent-one);
 	background-color: var(--colour-accent-second);
-	color: var(--colour-text-white-two);
+	color: var(--both-theme-white);
 }
 
 .text-field-success:focus {
-	color: var(--colour-text-white-two);
+	color: var(--both-theme-white);
 }

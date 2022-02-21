@@ -1,5 +1,5 @@
 function changeIframe(newSrc) {
-	document.getElementById('showcase-display-iframe').src = newSrc;
+	document.getElementById('showcase-display-iframe') ? (document.getElementById('showcase-display-iframe').src = newSrc) : null;
 }
 
 document.querySelectorAll('.showcase-list-item').forEach(function (item) {
@@ -10,6 +10,40 @@ document.querySelectorAll('.showcase-list-item').forEach(function (item) {
 		item.classList.add('showcase-list-item-active');
 	});
 });
+
+// Theme changer
+let currentTheme = localStorage.getItem('theme');
+if (currentTheme === 'light') {
+	document.documentElement.setAttribute('data-theme', 'light');
+	document.querySelectorAll('.theme-changer-icon').forEach(function (item) {
+		item.src = '/assets/svg/moon.svg';
+	});
+} else {
+	document.documentElement.setAttribute('data-theme', 'dark');
+	document.querySelectorAll('.theme-changer-icon').forEach(function (item) {
+		item.src = '/assets/svg/sun.svg';
+	});
+}
+const switchTheme = () => {
+	currentTheme = localStorage.getItem('theme');
+	if (currentTheme === 'light') {
+		document.documentElement.setAttribute('data-theme', 'dark');
+		document.getElementById('showcase-display-iframe')?.contentWindow.location.reload();
+		localStorage.setItem('theme', 'dark');
+		document.querySelectorAll('.theme-changer-icon').forEach(function (item) {
+			item.src = '/assets/svg/sun.svg';
+		});
+	} else {
+		document.documentElement.setAttribute('data-theme', 'light');
+		document.getElementById('showcase-display-iframe')?.contentWindow.location.reload();
+		localStorage.setItem('theme', 'light');
+		document.querySelectorAll('.theme-changer-icon').forEach(function (item) {
+			item.src = '/assets/svg/moon.svg';
+		});
+	}
+};
+
+document.querySelectorAll('.theme-changer').forEach((e) => e.addEventListener('click', switchTheme));
 
 switch (window.location.hash) {
 	case '#alert':
