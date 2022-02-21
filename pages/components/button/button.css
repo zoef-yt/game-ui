@@ -16,7 +16,7 @@
 .btn-primary:hover {
 	background-color: var(--colour-accent-second);
 	border: 1px solid var(--colour-accent-one);
-	color: var(--colour-text-white);
+	color: var(--both-theme-white);
 }
 
 .btn-secondary {
@@ -38,7 +38,7 @@
 .btn-danger:hover {
 	border: 1px solid var(--colour-error);
 	background-color: var(--colour-error-second);
-	color: var(--colour-text-white-two);
+	color: var(--both-theme-white);
 }
 
 .btn-link {
@@ -85,6 +85,9 @@
 }
 
 .btn-fab {
+	position: fixed;
+	bottom: 7vh;
+	right: 2rem;
 	border-radius: 50%;
 	background-color: var(--colour-accent-one);
 	border: 1px solid transparent;
@@ -97,5 +100,5 @@
 .btn-fab:hover {
 	background-color: var(--colour-accent-second);
 	border: 1px solid var(--colour-accent-one);
-	color: var(--colour-text-white-two);
+	color: var(--both-theme-white);
 }

@@ -14,13 +14,13 @@
 .alert-error {
 	border: 1px solid var(--colour-error);
 	background-color: var(--colour-error-second);
-	color: var(--colour-text-white-two);
+	color: var(--both-theme-white);
 }
 
 .alert-warning {
 	border: 1px solid var(--colour-warning);
 	background-color: var(--colour-warning-third);
-	color: var(--colour-text-white-two);
+	color: var(--both-theme-white);
 }
 
 .alert-info {
@@ -32,5 +32,5 @@
 .alert-success {
 	border: 1px solid var(--colour-accent-one);
 	background-color: var(--colour-accent-second);
-	color: var(--colour-text-white-two);
+	color: var(--both-theme-white);
 }

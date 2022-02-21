@@ -94,6 +94,7 @@
 	width: 100%;
 	height: 100%;
 	background-color: var(--colour-dark-with-opacity);
+	color: var(--colour-black-one);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
