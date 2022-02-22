@@ -1,0 +1,29 @@
+.rating-v1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.rating-star {
+	color: var(--colour-primary-second);
+	cursor: pointer;
+}
+
+.rating-star-filled {
+	color: var(--colour-primary);
+}
+
+.rating-v2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.rating-v2:hover .rating-star {
+	color: var(--colour-primary);
+}
+
+.rating-v2 .rating-star:hover ~ .rating-star {
+	color: var(--colour-primary-second);
+}
