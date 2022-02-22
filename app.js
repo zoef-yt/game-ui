@@ -82,6 +82,13 @@ switch (window.location.hash) {
 		changeIframe('../../pages/components/modal/modal.html');
 		break;
 
+	case '#navigation':
+		changeIframe('../../pages/components/navigation/navigation.html');
+		break;
+	case '#rating':
+		changeIframe('../../pages/components/rating/rating.html');
+		break;
+
 	case '#text-utilities':
 		changeIframe('../../pages/components/text-utilities/text-utilities.html');
 		break;
