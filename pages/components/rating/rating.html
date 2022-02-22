@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/styles.css" />
+		<link rel="stylesheet" href="/prism/prism.css" />
+		<title>Rating | UI Game</title>
+	</head>
+	<body class="showcase-body">
+		<h1 class="showcase-header">Rating</h1>
+		<p>Rating components can be used as read-only badge or in reviews section. Can be used in reviews section as form too.</p>
+		<hr />
+		<h1 class="showcase-heading">Static Rating</h1>
+		<p>Static rating are used to show rating of the current product which will not be change by user interaction.</p>
+		<div class="component-holder">
+			<div class="rating-v1">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					aria-hidden="true"
+					role="img"
+					class="iconify iconify--ic rating-star rating-star-filled"
+					width="32"
+					height="32"
+					preserveAspectRatio="xMidYMid meet"
+					viewBox="0 0 24 24"
+				>
+					<path
+						fill="currentColor"
+						d="m14.43 10l-1.47-4.84c-.29-.95-1.63-.95-1.91 0L9.57 10H5.12c-.97 0-1.37 1.25-.58 1.81l3.64 2.6l-1.43 4.61c-.29.93.79 1.68 1.56 1.09l3.69-2.8l3.69 2.81c.77.59 1.85-.16 1.56-1.09l-1.43-4.61l3.64-2.6c.79-.57.39-1.81-.58-1.81h-4.45z"
+					></path>
+				</svg>
+
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					aria-hidden="true"
+					role="img"
+					class="iconify iconify--ic rating-star rating-star-filled"
+					width="32"
+					height="32"
+					preserveAspectRatio="xMidYMid meet"
+					viewBox="0 0 24 24"
+				>
+					<path
+						fill="currentColor"
+						d="m14.43 10l-1.47-4.84c-.29-.95-1.63-.95-1.91 0L9.57 10H5.12c-.97 0-1.37 1.25-.58 1.81l3.64 2.6l-1.43 4.61c-.29.93.79 1.68 1.56 1.09l3.69-2.8l3.69 2.81c.77.59 1.85-.16 1.56-1.09l-1.43-4.61l3.64-2.6c.79-.57.39-1.81-.58-1.81h-4.45z"
+					></path>
+				</svg>
+
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					aria-hidden="true"
+					role="img"
+					class="iconify iconify--ic rating-star rating-star-filled"
+					width="32"
+					height="32"
+					preserveAspectRatio="xMidYMid meet"
+					viewBox="0 0 24 24"
+				>
+					<path
+						fill="currentColor"
+						d="m14.43 10l-1.47-4.84c-.29-.95-1.63-.95-1.91 0L9.57 10H5.12c-.97 0-1.37 1.25-.58 1.81l3.64 2.6l-1.43 4.61c-.29.93.79 1.68 1.56 1.09l3.69-2.8l3.69 2.81c.77.59 1.85-.16 1.56-1.09l-1.43-4.61l3.64-2.6c.79-.57.39-1.81-.58-1.81h-4.45z"
+					></path>
+				</svg>
+
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					aria-hidden="true"
+					role="img"
+					class="iconify iconify--ic rating-star"
+					width="32"
+					height="32"
+					preserveAspectRatio="xMidYMid meet"
+					viewBox="0 0 24 24"
+				>
+					<path
+						fill="currentColor"
+						d="m14.43 10l-1.47-4.84c-.29-.95-1.63-.95-1.91 0L9.57 10H5.12c-.97 0-1.37 1.25-.58 1.81l3.64 2.6l-1.43 4.61c-.29.93.79 1.68 1.56 1.09l3.69-2.8l3.69 2.81c.77.59 1.85-.16 1.56-1.09l-1.43-4.61l3.64-2.6c.79-.57.39-1.81-.58-1.81h-4.45z"
+					></path>
+				</svg>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					aria-hidden="true"
+					role="img"
+					class="iconify iconify--ic rating-star"
+					width="32"
+					height="32"
+					preserveAspectRatio="xMidYMid meet"
+					viewBox="0 0 24 24"
+				>
+					<path
+						fill="currentColor"
+						d="m14.43 10l-1.47-4.84c-.29-.95-1.63-.95-1.91 0L9.57 10H5.12c-.97 0-1.37 1.25-.58 1.81l3.64 2.6l-1.43 4.61c-.29.93.79 1.68 1.56 1.09l3.69-2.8l3.69 2.81c.77.59 1.85-.16 1.56-1.09l-1.43-4.61l3.64-2.6c.79-.57.39-1.81-.58-1.81h-4.45z"
+					></path>
+				</svg>
+			</div>
+		</div>
+
+		<div class="component-code-holder">
+			<script type="text/plain" class="line-numbers language-html">
+
+				<div class="rating-v1">
+				    <svg class="rating-star rating-star-filled">..</svg>
+				    <svg class="rating-star rating-star-filled">..</svg>
+				    <svg class="rating-star rating-star-filled">..</svg>
+				    <svg class="rating-star ">..</svg>
+				    <svg class="rating-star ">..</svg>
+				</div>
+			</script>
+		</div>
+		<hr />
+		<h1 class="showcase-heading">Dynamic Rating(Css Only)</h1>
+		<p>Dynamic rating changes star based on which star you are hovering over.</p>
+
+		<div class="component-holder">
+			<div class="rating-v2">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					aria-hidden="true"
+					role="img"
+					class="iconify iconify--ic rating-star"
+					width="32"
+					height="32"
+					preserveAspectRatio="xMidYMid meet"
+					viewBox="0 0 24 24"
+				>
+					<path
+						fill="currentColor"
+						d="m14.43 10l-1.47-4.84c-.29-.95-1.63-.95-1.91 0L9.57 10H5.12c-.97 0-1.37 1.25-.58 1.81l3.64 2.6l-1.43 4.61c-.29.93.79 1.68 1.56 1.09l3.69-2.8l3.69 2.81c.77.59 1.85-.16 1.56-1.09l-1.43-4.61l3.64-2.6c.79-.57.39-1.81-.58-1.81h-4.45z"
+					></path>
+				</svg>
+
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					aria-hidden="true"
+					role="img"
+					class="iconify iconify--ic rating-star"
+					width="32"
+					height="32"
+					preserveAspectRatio="xMidYMid meet"
+					viewBox="0 0 24 24"
+				>
+					<path
+						fill="currentColor"
+						d="m14.43 10l-1.47-4.84c-.29-.95-1.63-.95-1.91 0L9.57 10H5.12c-.97 0-1.37 1.25-.58 1.81l3.64 2.6l-1.43 4.61c-.29.93.79 1.68 1.56 1.09l3.69-2.8l3.69 2.81c.77.59 1.85-.16 1.56-1.09l-1.43-4.61l3.64-2.6c.79-.57.39-1.81-.58-1.81h-4.45z"
+					></path>
+				</svg>
+
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					aria-hidden="true"
+					role="img"
+					class="iconify iconify--ic rating-star"
+					width="32"
+					height="32"
+					preserveAspectRatio="xMidYMid meet"
+					viewBox="0 0 24 24"
+				>
+					<path
+						fill="currentColor"
+						d="m14.43 10l-1.47-4.84c-.29-.95-1.63-.95-1.91 0L9.57 10H5.12c-.97 0-1.37 1.25-.58 1.81l3.64 2.6l-1.43 4.61c-.29.93.79 1.68 1.56 1.09l3.69-2.8l3.69 2.81c.77.59 1.85-.16 1.56-1.09l-1.43-4.61l3.64-2.6c.79-.57.39-1.81-.58-1.81h-4.45z"
+					></path>
+				</svg>
+
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					aria-hidden="true"
+					role="img"
+					class="iconify iconify--ic rating-star"
+					width="32"
+					height="32"
+					preserveAspectRatio="xMidYMid meet"
+					viewBox="0 0 24 24"
+				>
+					<path
+						fill="currentColor"
+						d="m14.43 10l-1.47-4.84c-.29-.95-1.63-.95-1.91 0L9.57 10H5.12c-.97 0-1.37 1.25-.58 1.81l3.64 2.6l-1.43 4.61c-.29.93.79 1.68 1.56 1.09l3.69-2.8l3.69 2.81c.77.59 1.85-.16 1.56-1.09l-1.43-4.61l3.64-2.6c.79-.57.39-1.81-.58-1.81h-4.45z"
+					></path>
+				</svg>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					aria-hidden="true"
+					role="img"
+					class="iconify iconify--ic rating-star"
+					width="32"
+					height="32"
+					preserveAspectRatio="xMidYMid meet"
+					viewBox="0 0 24 24"
+				>
+					<path
+						fill="currentColor"
+						d="m14.43 10l-1.47-4.84c-.29-.95-1.63-.95-1.91 0L9.57 10H5.12c-.97 0-1.37 1.25-.58 1.81l3.64 2.6l-1.43 4.61c-.29.93.79 1.68 1.56 1.09l3.69-2.8l3.69 2.81c.77.59 1.85-.16 1.56-1.09l-1.43-4.61l3.64-2.6c.79-.57.39-1.81-.58-1.81h-4.45z"
+					></path>
+				</svg>
+			</div>
+		</div>
+
+		<div class="component-code-holder">
+			<script type="text/plain" class="line-numbers language-html">
+
+				<div class="rating-v2">
+				    <svg class="rating-star">..</svg>
+				    <svg class="rating-star">..</svg>
+				    <svg class="rating-star">..</svg>
+				    <svg class="rating-star ">..</svg>
+				    <svg class="rating-star ">..</svg>
+				</div>
+			</script>
+		</div>
+		<script src="/prism/prism.js"></script>
+		<script src="/app.js"></script>
+		<script src="/pages/components/rating/rating.js"></script>
+	</body>
+</html>
