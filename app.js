@@ -92,6 +92,9 @@ switch (window.location.hash) {
 	case '#text-utilities':
 		changeIframe('../../pages/components/text-utilities/text-utilities.html');
 		break;
+	case '#slider':
+		changeIframe('../../pages/components/slider/slider.html');
+		break;
 
 	default:
 		changeIframe('/pages/getting-started/introduction/introduction.html');
