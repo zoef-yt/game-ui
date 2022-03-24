@@ -96,6 +96,10 @@ switch (window.location.hash) {
 		changeIframe('../../pages/components/slider/slider.html');
 		break;
 
+	case '#grid':
+		changeIframe('../../pages/components/grid/grid.html');
+		break;
+
 	default:
 		changeIframe('/pages/getting-started/introduction/introduction.html');
 		break;
